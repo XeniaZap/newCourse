@@ -1,0 +1,66 @@
+body {
+    font-family: Arial;
+
+}
+h1 {
+    color:#666;
+    font-weight: 600;
+    font-style: italic;
+}
+p {
+    font-size: 16px;
+}
+.span-green {
+    color: green;
+}
+.span-red {
+    color:red;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+.test {
+    width: 50px;
+    height: 50px;
+    background: orange;
+    position:absolute;
+    top:400px;
+    right: 400px;
+    bottom: 200px;
+    /* position:fixed;*/
+}
+input[type="checkbox"] {
+    position: relative;
+    top:2px;
+}
+
+
+.rect {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    border:1px solid black;
+}
+.sq {
+    width: 50px;
+    height: 50px;
+    background: lime;
+}
+
+.p1 {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    z-index: 3;
+}
+
+.p2 {
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    background: orange;
+    z-index: 2;
+}
