@@ -1,0 +1,14 @@
+.main {
+    width: 1000px;
+    height: 300px;
+    margin: 200px auto;
+    background: palevioletred;
+}
+
+.test {
+    width: 50%;
+    height: 20%;
+    background: crimson;
+    margin: 10% ;
+    padding: 2%;
+}
