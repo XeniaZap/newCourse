@@ -1,0 +1,45 @@
+.desktop ul li {
+
+    display: inline-block;
+}
+
+.desktop {
+    background: orange;
+}
+
+.desktop-two {
+    display: none;
+    width: 250px;
+    background: lime;
+    position: fixed;
+    left: -228px;
+    top:0;
+    bottom: 0;
+    transition: all ease 0,5s;
+    cursor: pointer;
+}
+
+.desktop-two:after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('img/2849812_menu_multimedia_bars_media_icon.svg');
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+.desktop-two:hover {
+    left: 0;
+}
+
+@media screen and (max-width: 640px){
+    .desktop-two {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+}
