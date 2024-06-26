@@ -1,0 +1,43 @@
+.block {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    margin: 50px auto;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+}
+
+.cat {
+    max-width: 80%;
+    display: block;
+    margin: 10px auto;
+}
+
+.description-block > img {
+    width: 30%;
+    margin: 20px auto;
+}
+
+#bottom-button + .description-block {
+    display: none;
+}
+
+
+#bottom-button:checked + .description-block {
+    display: block;
+}
+#bottom-button:checked {
+    height: 300px;
+
+}
+
+ label {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: 10px auto;
+    background:url("8678667_shut_down_button_icon.png");
+ }
+
