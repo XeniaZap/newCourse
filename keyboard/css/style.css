@@ -1,0 +1,52 @@
+.keyboard {
+
+    border: 1px solid slategray;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.line:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.line {
+    width: 2024px;
+}
+.key {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid slategray;
+    border-radius: 4px;
+    margin: 3px;
+    padding: 4px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.backspace {
+    width: auto;
+}
+
+.tab , .capslock{
+    width: 60px;
+}
+
+.left-shift {
+    width: 72px;
+}
+
+.right-shift {
+    width: 72px;
+}
+
+.left-command, .right-command {
+    width: 69px;
+}
+
+.space {
+    width: 248px;
+}
